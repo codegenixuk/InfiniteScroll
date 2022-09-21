@@ -1,8 +1,8 @@
 {
-    "name": "codegenixuk/InfiniteScroll",
-    "description": "Magento 2: Infinite Scroll for Categories and Search",
+    "name": "codegenixuk/infinite-scroll",
+    "description": "Codegenix: Infinite Scroll for Categories",
     "type": "magento2-module",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Codegenixuk Uk",
@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "codegenixuk/Base": "1.0.1"
+        "codegenixuk/base": "^1.0.0"
     },
     "autoload": {
         "files": [
