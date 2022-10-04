@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
     <menu>
 
-        <add title="Infinite Scroll Title"
+        <add title="Infinite Scroll"
              parent="Codegenixuk_Base::index"
              resource="Codegenixuk_Base::infinite_scroll_config"
              sortOrder="10"
@@ -11,7 +11,7 @@
         />
 
         <add
-            title="Infinite Scroll"
+            title="Configuration"
             parent="Codegenixuk_InfiniteScroll::title"
             resource="Codegenixuk_Base::infinite_scroll_config_link"
             sortOrder="20"
